@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2EA1B84B-6C19-4FC5-8020-F13F173A93A1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A8BDF0A7-3028-4CB7-83DF-AF4C4AA2A5EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{DBA5DBCC-0ADC-4538-9D29-AD98B951BACE}"
+	ProjectSection(SolutionItems) = preProject
+		build\sitecore.path.xml = build\sitecore.path.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Website", "src\Cms.Website\Cms.Website.csproj", "{72198301-1F6C-46AF-A7FA-D3DF950474DF}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Cms.Website.Tds", "src\Cms.Website.Tds\Cms.Website.Tds.scproj", "{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1D749B48-8879-4924-AD24-D1C0033CCA8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "install", "install", "{93EF6355-B0AD-400D-833D-8CF8DE636B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72198301-1F6C-46AF-A7FA-D3DF950474DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72198301-1F6C-46AF-A7FA-D3DF950474DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72198301-1F6C-46AF-A7FA-D3DF950474DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72198301-1F6C-46AF-A7FA-D3DF950474DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72198301-1F6C-46AF-A7FA-D3DF950474DF} = {A8BDF0A7-3028-4CB7-83DF-AF4C4AA2A5EF}
+		{46B826EB-AE2D-4CC0-A645-4FB88081F1F9} = {A8BDF0A7-3028-4CB7-83DF-AF4C4AA2A5EF}
+		{93EF6355-B0AD-400D-833D-8CF8DE636B94} = {1D749B48-8879-4924-AD24-D1C0033CCA8E}
+	EndGlobalSection
+EndGlobal

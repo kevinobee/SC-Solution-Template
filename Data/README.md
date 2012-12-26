@@ -1,0 +1,1 @@
+Copy license.xml file to this directory
