@@ -12,7 +12,7 @@ In the example  that follows the solution template will be installed to _Templat
 
     > cd D:\Developer\Sitecore
 
-    > TODO
+    > git clone https://github.com/kevinobee/SC-Solution-Template.git Template
 
 
 #### Install Sitecore
