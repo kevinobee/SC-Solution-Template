@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{DBA5DBCC-0ADC-4538-9D29-AD98B951BACE}"
 	ProjectSection(SolutionItems) = preProject
-		build\sitecore.path.xml = build\sitecore.path.xml
+		build\Sitecore.Settings.props = build\Sitecore.Settings.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Website", "src\Cms.Website\Cms.Website.csproj", "{72198301-1F6C-46AF-A7FA-D3DF950474DF}"
