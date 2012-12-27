@@ -19,7 +19,7 @@ In the example  that follows the solution template will be installed to _Templat
 Install the version of Sitecore that you are working  with to _D:\Developer\Sitecore\Template_ using Sitecore installer or Rocks.
 
 
-Create a branch off _master_ for your local development and customise the following files:
+Create a branch off _master_ for your local development and customise the following file:
 
 *    __sitecore.path.xml__
 
@@ -30,29 +30,22 @@ Create a branch off _master_ for your local development and customise the follow
 
         <ItemGroup>
             <Reference Include="Sitecore.Analytics">
-                <HintPath>$(SitecoreLibPath)\Sitecore\Sitecore.Analytics.dll</HintPath>
+                <HintPath>$(SitecoreLibPath)\Sitecore.Analytics.dll</HintPath>
                 <Private>False</Private>
             </Reference>
             <Reference Include="Sitecore.Client">
-                <HintPath>$(SitecoreLibPath)\Sitecore\Sitecore.Client.dll</HintPath>
+                <HintPath>$(SitecoreLibPath)\Sitecore.Client.dll</HintPath>
                 <Private>False</Private>
             </Reference>
             <Reference Include="Sitecore.Kernel">
-                <HintPath>$(SitecoreLibPath)\Sitecore\Sitecore.Kernel.dll</HintPath>
+                <HintPath>$(SitecoreLibPath)\Sitecore.Kernel.dll</HintPath>
                 <Private>False</Private>
             </Reference>
             ....
         </ItemGroup>
 
 
-*    __EnvironmentSpecific.config__
 
-    Located in _src\Cms.Website\App_Config\Include_ directory
-
-    Sitecore include file containing the __dataFolder__ definition. 
-
-
-
-When pushing changes back into _master_ avoid committing these two files.
+When pushing changes back into _master_ avoid committing this file.
 
 
