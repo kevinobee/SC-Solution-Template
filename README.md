@@ -21,7 +21,7 @@ Install the version of Sitecore that you are working  with to _D:\Developer\Site
 
 Create a branch off _master_ for your local development and customise the following file:
 
-*    __sitecore.path.xml__
+*    __Sitecore.Settings.props__
 
     Located in _build_ directory
 
