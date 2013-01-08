@@ -2,7 +2,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <WebsiteUrl>http://yoursite</WebsiteUrl>
-    <SolutionRootDir>D:\Websites\Development\SC-Solution-Template</SolutionRootDir>
+    <SolutionRootDir>D:\Websites\Development\Template</SolutionRootDir>
     <SitecorePath>$(SolutionRootDir)\Website</SitecorePath>
     <SitecoreLibPath>$(SolutionRootDir)\lib\Sitecore</SitecoreLibPath>
   </PropertyGroup>
