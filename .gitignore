@@ -126,3 +126,6 @@ Website/
 # TDS files
 src/Cms.Website.Tds/IconCache
 src/Cms.Website.Tds/BuiltFiles_Debug.txt
+
+# Local sitecore paths
+/build/Sitecore.Settings.props
