@@ -58,6 +58,7 @@ Create a branch off _master_ for your local development and customise the follow
 
 
 
-When pushing changes back into _master_ avoid committing this file.
+When pushing changes back into _master_ avoid committing this file. To ensure that the file is ignored run the following GIT command:
 
 
+    > git update-index --assume-unchanged build/Sitecore.Settings.props
